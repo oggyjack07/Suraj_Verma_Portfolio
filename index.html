@@ -12,7 +12,7 @@
     <header>
         <nav class="navbar">
             <div class="nav-brand">
-                <span class="logo">SV</span>
+                <span class="logo typing-logo"></span>
                 <span class="name">Suraj</span>
             </div>
             <ul class="nav-links">
@@ -46,43 +46,42 @@
         <a href="#education">Education</a>
         <a href="#certifications">Certifications</a>
         <a href="#contact">Contact</a>
-        <a href="resume.pdf" download class="mobile-resume-btn">
-            <i class="fas fa-download"></i> Download Resume
-        </a>
     </div>
 
     <!-- Hero Section -->
-<section id="home" class="hero">
-    <div class="container">
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1 class="hero-title">Hi, I'm <span class="highlight typing-animation"></span></h1>
-                <p class="hero-subtitle">Web Developer & Graphic Designer</p>
-                <p class="hero-desc">I create beautiful and functional web experiences with modern technologies</p>
-                <div class="hero-btns">
-                    <a href="#projects" class="btn primary">
-                        <i class="fas fa-rocket"></i> View Projects
-                    </a>
-                    <a href="resume.pdf" download class="btn secondary">
-                        <i class="fas fa-download"></i> Download Resume
-                    </a>
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Hi, I'm <span class="highlight name-animation"></span><span class="blinking-cursor">|</span></h1>
+                    <p class="hero-subtitle">Web Developer & Graphic Designer</p>
+                    <p class="hero-desc">I create beautiful and functional web experiences with modern technologies</p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn primary">
+                            <i class="fas fa-rocket"></i> View Projects
+                        </a>
+                        <a href="resume.pdf" download class="btn secondary">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="hero-image">
-                <div class="mobile-profile">
-                    <div class="profile-avatar">
-                        <img src="images/profile-photo.jpg" alt="Suraj Verma">
+                <div class="hero-image">
+                    <div class="mobile-profile">
+                        <div class="profile-avatar">
+                            <img src="images/profile-photo.JPG" alt="Suraj Verma" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <span class="avatar-fallback">SV</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="scroll-indicator">
-        <span>Scroll Down</span>
-        <i class="fas fa-chevron-down"></i>
-    </div>
-</section>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
 
+    <!-- Rest of your HTML sections remain the same -->
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
@@ -156,97 +155,7 @@
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-icon">🧠</div>
-                    <h3>AI Resume Builder</h3>
-                    <p>Generates professional resumes using artificial intelligence with customizable templates and content suggestions.</p>
-                    <div class="project-tech">
-                        <span>Python</span>
-                        <span>AI/ML</span>
-                        <span>Flask</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-icon">🏙️</div>
-                    <h3>Travel Guide Website</h3>
-                    <p>A comprehensive city guide showing famous places, nearby restaurants, and local attractions with real-time data.</p>
-                    <div class="project-tech">
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>JavaScript</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://oggyjack07.github.io/City-Guide-website-Project/" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-icon">🎮</div>
-                    <h3>BGMI Tournament Website</h3>
-                    <p>Complete tournament management system for BGMI with team registration, scheduling, and live updates.</p>
-                    <div class="project-tech">
-                        <span>PHP</span>
-                        <span>MySQL</span>
-                        <span>JavaScript</span>
-                    </div>
-                    <div class="project-links">
-                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                    <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
-                    <a href="#" class="project-link in-progress">
-                    <i class="fas fa-tools"></i> In Progress</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-icon">🎨</div>
-                    <h3>Color Prediction Game</h3>
-                    <p>Educational color prediction web application demonstrating frontend development concepts and algorithms.</p>
-                    <div class="project-tech">
-                        <span>PHP</span>
-                        <span>MySQL</span>
-                        <span>JavaScript</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-icon">🏫</div>
-                    <h3>College Management System</h3>
-                    <p>Complete college management website with student portal, faculty dashboard, and admin panel.</p>
-                    <div class="project-tech">
-                        <span>PHP</span>
-                        <span>MySQL</span>
-                        <span>JavaScript</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-icon">🖼️</div>
-                    <h3>Image Predictor</h3>
-                    <p>Advanced image classification system using CLIP model to identify objects in photos with high accuracy.</p>
-                    <div class="project-tech">
-                        <span>Pytorch</span>
-                        <span>CLIP Model</span>
-                        <span>TensorFlow</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
-                    </div>
-                </div>
+                <!-- Projects will be loaded by JavaScript -->
             </div>
             
             <!-- View More Button for Mobile -->
@@ -263,22 +172,7 @@
         <div class="container">
             <h2 class="section-title">Education</h2>
             <div class="education-grid">
-                <div class="education-card">
-                    <div class="edu-icon">🎓</div>
-                    <h3>Diploma in Computer Science</h3>
-                    <p class="institute">Polytechnic College, Dewas</p>
-                    <p class="institute-affiliation">RGPV University</p>
-                    <p class="duration">2022-2025 (Completed)</p>
-                    <p class="grades">CGPA: 6.67/10</p>
-                </div>
-                <div class="education-card">
-                    <div class="edu-icon">💻</div>
-                    <h3>B.Tech in Computer Science</h3>
-                    <p class="institute">MIT College, Ujjain</p>
-                    <p class="institute-affiliation">RGPV University</p>
-                    <p class="duration">2025 - 2028 (Currently in 2nd Year)</p>
-                    <p class="grades">Pursuing</p>
-                </div>
+                <!-- Education will be loaded by JavaScript -->
             </div>
         </div>
     </section>
@@ -288,44 +182,7 @@
         <div class="container">
             <h2 class="section-title">Certifications</h2>
             <div class="certs-grid">
-                <div class="cert-card">
-                    <div class="cert-icon">🌐</div>
-                    <h3>Web Development</h3>
-                    <p class="cert-issuer">Online Platform</p>
-                    <span class="cert-date">Completed</span>
-                    <a href="certificates/web-development.pdf" download class="cert-download-btn">
-                        <i class="fas fa-download"></i> Download Certificate
-                    </a>
-                </div>
-                <div class="cert-card">
-                    <div class="cert-icon">⚡</div>
-                    <h3>C Programming</h3>
-                    <p class="cert-issuer">Online Platform</p>
-                    <span class="cert-date">Completed</span>
-                    <a href="certificates/c-programming.pdf" download class="cert-download-btn">
-                        <i class="fas fa-download"></i> Download Certificate
-                    </a>
-                </div>
-                
-                <!-- Hidden certificates on mobile -->
-                <div class="cert-card mobile-hidden">
-                    <div class="cert-icon">🔷</div>
-                    <h3>C++ Programming</h3>
-                    <p class="cert-issuer">Online Platform</p>
-                    <span class="cert-date">Completed</span>
-                    <a href="certificates/cpp-programming.pdf" download class="cert-download-btn">
-                        <i class="fas fa-download"></i> Download Certificate
-                    </a>
-                </div>
-                <div class="cert-card mobile-hidden">
-                    <div class="cert-icon">🐍</div>
-                    <h3>Python Programming</h3>
-                    <p class="cert-issuer">Online Platform</p>
-                    <span class="cert-date">Completed</span>
-                    <a href="certificates/python-programming.pdf" download class="cert-download-btn">
-                        <i class="fas fa-download"></i> Download Certificate
-                    </a>
-                </div>
+                <!-- Certifications will be loaded by JavaScript -->
             </div>
             
             <!-- View More Button for Certificates -->
@@ -394,7 +251,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <span class="logo">SV</span>
+                    <span class="logo typing-logo-small"></span>
                     Suraj Verma
                 </div>
                 <p class="footer-text">Creating digital experiences that matter</p>
@@ -409,6 +266,42 @@
             </div>
         </div>
     </footer>
+
+    <!-- Certificate Modal -->
+    <div class="cert-modal">
+        <div class="cert-modal-content">
+            <div class="cert-modal-header">
+                <h3>Certificate Details</h3>
+                <button class="close-modal"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="cert-modal-body">
+                <div class="certificate-preview">
+                    <div class="certificate-image-container">
+                        <img src="" alt="Certificate" class="certificate-image">
+                        <div class="certificate-placeholder">
+                            <i class="fas fa-certificate"></i>
+                            <p>Certificate Image</p>
+                            <small>Click view to see actual certificate</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="cert-modal-details">
+                    <p><strong>Certificate:</strong> <span class="cert-name"></span></p>
+                    <p><strong>Issuer:</strong> <span class="cert-issuer"></span></p>
+                    <p><strong>Date:</strong> <span class="cert-date"></span></p>
+                    <p><strong>Status:</strong> <span class="cert-status">Completed</span></p>
+                </div>
+                <div class="cert-modal-actions">
+                    <a href="#" class="btn primary download-cert-btn" download>
+                        <i class="fas fa-download"></i> Download Certificate
+                    </a>
+                    <button class="btn secondary close-cert-btn">
+                        <i class="fas fa-times"></i> Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>

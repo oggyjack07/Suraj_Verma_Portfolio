@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             description: 'A comprehensive city guide showing famous places, nearby restaurants, and local attractions with real-time data.',
             tech: ['HTML5', 'CSS3', 'JavaScript'],
             links: [
-                { type: 'demo', url: 'https://oggyjack07.github.io/City-Guide-website-Project/', text: 'Live Demo' },
+                { type: 'demo', url: 'https://oggyjack07.github.io/Travel-Guide-Website-Project/', text: 'Live Demo' },
                 { type: 'github', url: '#', text: 'GitHub' }
             ]
         },
@@ -548,3 +548,4 @@ document.addEventListener('DOMContentLoaded', function() {
     initNameAnimation();
     initializeSections();
 });
+
